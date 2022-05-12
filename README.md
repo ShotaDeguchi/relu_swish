@@ -7,7 +7,9 @@ Swish (equivalent to [SiLU](https://arxiv.org/abs/1702.03118)) activation functi
 ## Example
 Linear activation-employed DNN (Deep Neural Network) returns linear signal (which is very natural), and ReLU-equipped DNN yields zig-zag result. In addition, Swish inference approaches to linear DNN / ReLU DNN depending on beta values. 
 
-<img src="">
+|Problem 1|Problem 2|
+|:---:|:---:|
+|<img src=./figures/approx_problem1.png>|<img src=./figures/approx_problem2.png>|
 
 ## Dependencies
 |Library/Package|Version|
