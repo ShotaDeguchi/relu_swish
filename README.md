@@ -2,7 +2,7 @@
 This repo is a supplementary material for [author's blog post (Japanese)](). Through a few examples, we investigate the relationship between [Swish](http://arxiv.org/abs/1710.05941) and a linear activation, also Swish and [ReLU](https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf) activation. 
 
 ## Purpose
-Swish (or [SiLU](https://arxiv.org/abs/1702.03118)) activation function can be considered as a generalization of a linear map and ReLU. 
+Swish (equivalent to [SiLU](https://arxiv.org/abs/1702.03118)) activation function can be considered as a generalization of a linear map and ReLU. 
 
 
 Activation functions are essential to introduce non-linearity to DNNs i.e. DNN approximations are heavily dependent on the properties of the selected activation functions. This repo builds neural networks to learn several functions with 3 different activation functions, namely, ReLU, Swish, and tanh. Networks have different parameter initializations, [Glorot normal](https://proceedings.mlr.press/v9/glorot10a.html) for tanh activation, [He normal](https://arxiv.org/abs/1502.01852) for ReLU ([Nair (2010)](https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf)) and Swish ([Ramachandran (2017)](http://arxiv.org/abs/1710.05941), [Elfwing (2018)](https://arxiv.org/abs/1702.03118)). 
