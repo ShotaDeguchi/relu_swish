@@ -20,7 +20,7 @@ def main():
     xmin = -1.
     xmax =  1.
     nx   = 2 ** 8
-    nx_  = 2 ** 6
+    nx_  = 2 ** 4
 
     # params
     f_in   = 1
@@ -83,6 +83,8 @@ def main():
         # swish
         act = "swish"
         beta = 1.
+        lr = 5e-4 / beta
+        lr = 5e-4 / (beta ** depth)
         model_swish1 = DNN(
             x_train, y_train, 
             f_in, f_out, f_hid, depth, 
