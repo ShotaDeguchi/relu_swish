@@ -12,7 +12,6 @@ ReLU network has zig-zag inference result, while others (tanh & Swish) have smoo
 
 
 ## Dependencies
-TensorFlow environment:
 |Library/Package|Version|
 |:---:|:---:|
 |keras|2.8.0|
