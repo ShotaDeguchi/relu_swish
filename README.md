@@ -10,6 +10,7 @@ Linear activation-employed DNN (Deep Neural Network) returns linear signal (whic
 |Problem 1|Problem 2|
 |:---:|:---:|
 |<img src=./figures/approx_problem1.png>|<img src=./figures/approx_problem2.png>|
+|<img src=./figures/loss_problem1.png>|<img src=./figures/loss_problem2.png>|
 
 ## Dependencies
 |Library/Package|Version|
