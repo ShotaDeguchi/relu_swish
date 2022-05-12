@@ -5,7 +5,7 @@ This repo is a supplementary material for [author's blog post (Japanese)](link).
 Swish (equivalent to [SiLU](https://arxiv.org/abs/1702.03118)) activation function can be considered as a generalization of a linear map and ReLU. In other words, e can have Swish approach to linear / ReLU by varying its characteristic factor, beta (beta -> 0 or beta -> inf). Considering its similarity to ReLU, we employed [He normal](https://arxiv.org/abs/1502.01852) for weight matrix initialization. 
 
 ## Example
-Linear activation-employed DNN (Deep Neural Network) returns linear signal (which is very natural), and ReLU-equipped DNN yields zig-zag result. In addition, Swish inference approaches to linear DNN / ReLU DNN depending on beta values. 
+Linear activation-employed DNN (Deep Neural Network) returns linear signal and ReLU-equipped DNN yields zig-zag result (which are very natural). In addition, Swish inference approaches to linear DNN / ReLU DNN depending on beta values. 
 
 |Problem 1|Problem 2|
 |:---:|:---:|
