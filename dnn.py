@@ -11,7 +11,7 @@ import time
 import numpy as np
 import tensorflow as tf
 
-class DNN:
+class DNN(tf.keras.Model):
     def __init__(
         self, 
         x, y, 
