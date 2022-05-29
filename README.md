@@ -12,6 +12,8 @@ Linear activation-employed DNN (Deep Neural Network) returns linear signal and R
 |<img src=./figures/approx_problem1.png>|<img src=./figures/approx_problem2.png>|
 
 ## Dependencies
+<code>pip install -r requirements.txt</code> to have the identical environment as author. Or install the following dependencies:
+
 |Library/Package|Version|
 |:---:|:---:|
 |keras|2.8.0|
